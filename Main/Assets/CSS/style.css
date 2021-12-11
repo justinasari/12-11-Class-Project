@@ -1,0 +1,104 @@
+/*Universal Selector */
+* {
+    margin:0;
+    padding:0;
+}
+
+/* Element Selectors */
+body {
+    position: relative;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    color:rgb(255, 255, 255);
+    background-color:rgb(0, 0, 0)
+}
+
+main {
+    padding: 60px 0;
+}
+
+li {
+    display: inline;
+    padding: 0px 20px;
+}
+
+a {
+    color: white;
+}
+
+header,
+footer {
+    height: 60px;
+    width: 100%;
+    line-height: 60px;
+    background-color: rgb(0, 143, 209);
+}
+
+header {
+    position: fixed;
+    border-bottom: 10px solid rgb(22, 201, 255);
+}
+
+footer {
+    position: absolute;
+    margin-top: 0;
+    bottom: 0;
+    border-top: 10px solid rgb(22, 201, 255);
+    color: white
+}
+
+h1,
+h2 {
+    margin: 20px;
+}
+
+#image_1 {
+    display: block;
+    margin: auto 100px;
+}
+
+figure {
+    margin-bottom: 40px;
+}
+
+section {
+    margin-bottom: 0;
+    padding: 20px 10px 40px 10px;
+    border-top: 5px solid rgb(0, 119, 255);
+    background-color: rgb(0, 63, 134);
+}
+
+form {
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    border: 5px solid rgb(0, 119, 255);
+    border-radius: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input {
+    box-sizing: border-box;
+    width: 300px;
+    border: 1px solid #000000;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+}
+
+/*Class Selectors */
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
